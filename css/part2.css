@@ -1,0 +1,21 @@
+body {
+    /* background-color: gray; */
+    background: url(../images/onbi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    background-color: blue;
+    border-color: red;
+    border-width: 1px;
+    border-style: double;
+}
+
+p {
+    color: yellow;
+}
+
+span {
+    background-color: black;
+}
