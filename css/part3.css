@@ -1,0 +1,32 @@
+.firstDiv {
+    color: blue;
+}
+
+.secondDiv {
+    color: red;
+}
+
+#singledout {
+    color: brown;
+    text-decoration: line-through;
+}
+
+/* * {
+    color: black;
+} */
+
+/* adjacent siblings */
+h3 + ul {
+    border: 4px dotted purple;
+}
+
+/* descendents */
+li a {
+    color: green;
+}
+
+/* attributes */
+li a[href="www.google.com"] {
+    color: orange;
+    border: 5px solid cyan;
+}
