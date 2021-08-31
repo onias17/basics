@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Bootstrap Project</title>
+</head>
+<body>
+    <style type="text/css">
+        .jumbotron {
+            padding: 4rem 2rem;
+            margin-bottom: 2rem;
+            background-color: #e9ecef;
+            border-radius: .3rem;  
+        }
+
+        .space {
+            margin-top: 20px;
+        }
+
+        .bspace {
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <div class="">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link navbar-brand">Welcome</a></li>
+                    <li class="nav-item"><a href="bsproj.html" class="nav-link text-white">Landing Page</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container space">
+            <div class="jumbotron">
+                <h1>Log In</h1>
+                <p>Enter your email and password below to log in to Coffee Lover</p>
+            </div>
+
+            <form>
+                <div class="bspace">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" placeholder="Email" id="email" aria-describedby="emailHelp">
+                </div>
+                <div class="bspace">
+                    <label for="pw" class="form-label">Password</label>
+                    <input type="password" class="form-control" placeholder="Password" id="pw">
+                </div>
+                <div class="bspace"> 
+                    <input type="checkbox" class="form-check-input" id="cb">
+                    <label class="form-check-label" for="cb">Keep me Logged In</label>
+                </div>
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
