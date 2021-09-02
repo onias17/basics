@@ -40,5 +40,6 @@ print(matrix[0][2])
 print(matrix[1][1])
 print(matrix[2][0])
 
+# list comprehension
 col = [row[0] for row in matrix]
 print(col)
