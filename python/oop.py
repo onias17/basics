@@ -56,3 +56,31 @@ print(myc.area())
 myc.radius = 100
 print(myc.radius)
 print(myc.area())
+
+# Inheritance
+class Animal():
+
+    def __init__(self):
+        print('animal')
+
+    def whoAmI(self):
+        print('lion')
+
+    def eat(self):
+        print('Bible')
+
+mya = Animal()
+mya.eat()
+mya.whoAmI()
+
+class Dogg(Animal):
+
+    def __init__(self):
+        Animal.__init__(self)
+        print('dogg')
+
+mydogg = Dogg()
+mydogg.whoAmI()
+mydogg.eat()
+
+# Special Methods
